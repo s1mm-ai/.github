@@ -1,6 +1,6 @@
 # s1mm
 
-Small, fast decision models for screens.
+Small, fast multimodal decision models. First wedge: screens.
 
 A decision model does not write text. It takes a screenshot, a question and a short list of options,
 and returns one answer with a calibrated probability for every option, in one forward pass. Agents,
@@ -8,8 +8,9 @@ test pipelines and automation loops make thousands of these decisions: is the fi
 element is the target, did the page change, is a dialog in the way. Today most of them go to a large
 model that is slow, expensive and never says how sure it is.
 
-s1mm builds the small model for that job and, with it, the harness that proves the model actually looks
-at the screen rather than at the text around it. Every number we publish comes with its controls.
+s1mm builds small multimodal models for that job and, with it, the harness that proves a model actually
+looks at the image rather than at the text around it. We start with screens, where a small model can beat
+large ones today, and we publish every number with its controls.
 
 ## What we are working on
 
