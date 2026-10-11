@@ -1,6 +1,6 @@
 # s1mm
 
-Small, fast multimodal decision models. First wedge: screens.
+Small, fast multimodal decision models.
 
 A decision model does not write text. It takes a screenshot, a question and a short list of options,
 and returns one answer with a calibrated probability for every option, in one forward pass. Agents,
